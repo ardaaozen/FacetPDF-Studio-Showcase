@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FacetPDF Studio Showcase</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172126;
+      --muted: #5b6870;
+      --line: #d9e2e7;
+      --paper: #f7f4ef;
+      --panel: #ffffff;
+      --accent: #0d7f83;
+      --accent-2: #b7442e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+
+    header, section, footer {
+      padding: 56px clamp(20px, 5vw, 72px);
+    }
+
+    header {
+      min-height: 82vh;
+      display: grid;
+      align-items: center;
+      background: linear-gradient(120deg, #f7f4ef 0%, #e7f0ee 58%, #f8e7df 100%);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
+      gap: 48px;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(44px, 7vw, 88px);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      font-size: 32px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .eyebrow {
+      margin-bottom: 14px;
+      color: var(--accent-2);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button.secondary {
+      color: var(--ink);
+      background: transparent;
+      border: 1px solid var(--line);
+    }
+
+    .hero-shot {
+      width: min(100%, 360px);
+      justify-self: center;
+      border-radius: 32px;
+      box-shadow: 0 30px 80px rgba(23, 33, 38, 0.22);
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .feature {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .feature h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .feature p {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 18px;
+      align-items: start;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      box-shadow: 0 16px 40px rgba(23, 33, 38, 0.14);
+      background: #fff;
+    }
+
+    .ipad-gallery {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 860px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-shot {
+        width: min(72vw, 300px);
+      }
+
+      .grid, .gallery, .ipad-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 560px) {
+      header, section, footer {
+        padding: 40px 18px;
+      }
+
+      .grid, .gallery, .ipad-gallery {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 44px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div>
+        <div class="eyebrow">On-device PDF studio for iPhone and iPad</div>
+        <h1>FacetPDF Studio</h1>
+        <p>Read, scan, annotate, sign, organize, convert, compress, and export PDFs while keeping document work local to the device.</p>
+        <p>TR: PDF oku, tara, not al, imzala, sayfalari duzenle, farkli dosyalari PDF'e cevir ve belgelerini cihazda tut.</p>
+        <div class="actions">
+          <a class="button" href="README.md">English</a>
+          <a class="button secondary" href="README.tr.md">Turkce</a>
+        </div>
+      </div>
+      <img class="hero-shot" src="screenshots/Real-iPhone-17-Pro-Max/01-home-premium.png" alt="FacetPDF Studio home screen">
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <h2>Highlights / One Cikanlar</h2>
+      <div class="grid">
+        <div class="feature">
+          <h3>Private by design</h3>
+          <p>Documents stay on device unless the user shares or exports them through iOS.</p>
+        </div>
+        <div class="feature">
+          <h3>File to PDF</h3>
+          <p>Convert images, text, RTF, and HTML into PDF directly on device.</p>
+        </div>
+        <div class="feature">
+          <h3>PDF tools</h3>
+          <p>Search, annotate, sign, stamp, organize pages, merge, compress, and export.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>iPhone Mockups</h2>
+      <div class="gallery">
+        <img src="screenshots/Real-iPhone-17-Pro-Max/01-home-premium.png" alt="Home">
+        <img src="screenshots/Real-iPhone-17-Pro-Max/02-workspace-editor.png" alt="Workspace editor">
+        <img src="screenshots/Real-iPhone-17-Pro-Max/03-page-organizer.png" alt="Page organizer">
+        <img src="screenshots/Real-iPhone-17-Pro-Max/04-paywall-premium.png" alt="Pro paywall">
+        <img src="screenshots/Real-iPhone-17-Pro-Max/05-search-export.png" alt="Search and export">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>iPad Mockups</h2>
+      <div class="gallery ipad-gallery">
+        <img src="screenshots/iPad-12.9/01-ipad-workspace.png" alt="iPad workspace">
+        <img src="screenshots/iPad-12.9/02-ipad-pages.png" alt="iPad pages">
+        <img src="screenshots/iPad-12.9/03-ipad-export.png" alt="iPad export">
+        <img src="screenshots/iPad-12.9/04-ipad-pro.png" alt="iPad Pro">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Copyright (c) 2026 Arda Ozen. Public showcase only; source code is kept private.</div>
+  </footer>
+</body>
+</html>
