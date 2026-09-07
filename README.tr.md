@@ -1,3 +1,5 @@
+![FacetPDF Studio](screenshots/facetpdf-hero.png)
+
 <h1 align="center">FacetPDF Studio</h1>
 
 <p align="center">
