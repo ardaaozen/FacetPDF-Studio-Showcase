@@ -1,60 +1,54 @@
-# FacetPDF Studio
+<h1 align="center">FacetPDF Studio</h1>
 
-FacetPDF Studio is an on-device PDF reader, editor, scanner, and converter for iPhone and iPad.
+<p align="center">
+  <strong>Read, edit, scan, sign and organize PDFs on iPhone and iPad.</strong><br>
+  A focused document workspace built around on-device processing.
+</p>
 
-It is built for people who want to open, annotate, sign, organize, compress, and export PDF documents without sending private files to a remote document service.
+<p align="center">
+  <img alt="Platforms" src="https://img.shields.io/badge/Platform-iPhone%20%26%20iPad-111111?logo=apple&logoColor=white">
+  <img alt="PDF tools" src="https://img.shields.io/badge/Toolkit-PDF-EC1C24?logo=adobeacrobatreader&logoColor=white">
+  <img alt="Processing" src="https://img.shields.io/badge/Processing-On%20Device-2F855A">
+  <img alt="Account" src="https://img.shields.io/badge/Account-Not%20Required-4A5568">
+</p>
 
-## What It Does
+## Product at a glance
 
-- Read PDFs with fast navigation, zoom, search, and page tools.
-- Annotate with ink, text, highlights, underline, strikeout, sticky notes, masks, signatures, and stamps.
-- Scan paper documents into PDF using the device camera.
-- Convert images, plain text, RTF, and HTML into PDF on device.
-- Merge PDFs, create blank PDFs, organize pages, and export flattened copies.
-- Compress and securely export documents while keeping files local to the device.
-- Use Pro features through monthly, annual, or lifetime purchase options.
+| | |
+| --- | --- |
+| **Problem** | Everyday PDF jobs are often split across several tools or remote services. |
+| **Solution** | One mobile workspace for reading, annotation, scanning, conversion and page management. |
+| **Privacy direction** | Documents remain on the device unless the user explicitly shares or exports them. |
+| **Business model** | Core experience with monthly, annual and lifetime Pro options. |
 
-## Privacy Direction
+## Toolkit
 
-FacetPDF Studio is designed around local document handling. Imported PDFs, camera scans, signatures, annotations, and converted files stay on the user's device unless the user chooses to share or export them through iOS.
+- Fast PDF navigation, zoom, search and page tools
+- Ink, text, highlights, notes, masks, signatures and stamps
+- Camera scanning and blank-PDF creation
+- Image, plain-text, RTF and HTML conversion
+- Merge, reorder, rotate, delete and extract page workflows
+- Compression, flattening and protected export options
 
-No account is required.
+## Product screens
 
-## App Store Positioning
+<table>
+  <tr>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/01-home-premium.png" alt="FacetPDF home"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/02-workspace-editor.png" alt="PDF editor"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/03-page-organizer.png" alt="Page organizer"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/04-paywall-premium.png" alt="Pro plans"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/05-search-export.png" alt="Search and export"></td>
+  </tr>
+</table>
 
-**Subtitle:** Read, edit & sign PDFs.
+<details>
+  <summary><strong>View iPad previews</strong></summary>
+  <br>
+  <img src="screenshots/iPad-12.9/01-ipad-workspace.png" width="24%" alt="iPad workspace">
+  <img src="screenshots/iPad-12.9/02-ipad-pages.png" width="24%" alt="iPad pages">
+  <img src="screenshots/iPad-12.9/03-ipad-export.png" width="24%" alt="iPad export">
+  <img src="screenshots/iPad-12.9/04-ipad-pro.png" width="24%" alt="iPad Pro">
+</details>
 
-**Category:** Productivity
-
-**Launch pricing direction:**
-
-- Monthly Pro: USD 0.99
-- Annual Pro: USD 4.99
-- Lifetime unlock: USD 9.99
-
-## Screenshots and Mockups
-
-### Real iPhone 17 Pro Max Set
-
-![Home premium screen](screenshots/Real-iPhone-17-Pro-Max/01-home-premium.png)
-![PDF workspace editor](screenshots/Real-iPhone-17-Pro-Max/02-workspace-editor.png)
-![Page organizer](screenshots/Real-iPhone-17-Pro-Max/03-page-organizer.png)
-![Pro paywall](screenshots/Real-iPhone-17-Pro-Max/04-paywall-premium.png)
-![Search and export](screenshots/Real-iPhone-17-Pro-Max/05-search-export.png)
-
-### App Store iPhone 6.5 Inch Set
-
-![Open PDFs fast](screenshots/iPhone-6.5/01-open-pdfs-fast.png)
-![Annotate sign stamp](screenshots/iPhone-6.5/02-annotate-sign-stamp.png)
-![Organize pages](screenshots/iPhone-6.5/03-organize-pages.png)
-![Secure compact export](screenshots/iPhone-6.5/04-secure-compact-export.png)
-![Pro launch trial](screenshots/iPhone-6.5/05-pro-launch-trial.png)
-
-### iPad Set
-
-![iPad workspace](screenshots/iPad-12.9/01-ipad-workspace.png)
-![iPad pages](screenshots/iPad-12.9/02-ipad-pages.png)
-![iPad export](screenshots/iPad-12.9/03-ipad-export.png)
-![iPad Pro](screenshots/iPad-12.9/04-ipad-pro.png)
-
-Turkish version: [README.tr.md](README.tr.md)
+Türkçe anlatım: [README.tr.md](README.tr.md)

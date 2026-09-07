@@ -1,60 +1,44 @@
-# FacetPDF Studio
+<h1 align="center">FacetPDF Studio</h1>
 
-FacetPDF Studio, iPhone ve iPad icin on-device calisan PDF okuyucu, editor, tarayici ve donusturucu uygulamasidir.
+<p align="center">
+  <strong>iPhone ve iPad’de PDF okuma, düzenleme, tarama, imzalama ve sayfa yönetimi.</strong><br>
+  Cihaz üzerinde işlemeyi merkeze alan odaklı bir belge çalışma alanı.
+</p>
 
-Uygulama; PDF acmak, not almak, imzalamak, sayfalari duzenlemek, dosyalari kucultmek ve disa aktarmak isteyen kullanicilar icin tasarlandi. Temel prensip nettir: belgeler uzak bir dokuman servisine gonderilmez.
+<p align="center">
+  <img alt="Platformlar" src="https://img.shields.io/badge/Platform-iPhone%20%26%20iPad-111111?logo=apple&logoColor=white">
+  <img alt="PDF araçları" src="https://img.shields.io/badge/Araçlar-PDF-EC1C24?logo=adobeacrobatreader&logoColor=white">
+  <img alt="İşleme" src="https://img.shields.io/badge/İşleme-Cihaz%20Üzerinde-2F855A">
+</p>
 
-## Ne Ise Yarar?
+## Ürün özeti
 
-- PDF dosyalarini hizli gezinme, yakinlastirma, arama ve sayfa araclariyla okutur.
-- Kalem, metin, vurgulama, alt cizgi, uzeri cizili metin, yapiskan not, maske, imza ve damga ekler.
-- Cihaz kamerasi ile kagit belgeleri PDF'e cevirir.
-- Gorsel, duz metin, RTF ve HTML dosyalarini cihaz uzerinde PDF'e donusturur.
-- PDF birlestirme, bos PDF olusturma, sayfa duzenleme ve sabitlenmis kopya disa aktarma ozellikleri sunar.
-- Belgeleri cihazda tutarak sikistirma ve guvenli disa aktarma yapar.
-- Aylik, yillik veya omur boyu Pro satin alma secenekleriyle gelisir.
+| | |
+| --- | --- |
+| **Problem** | Günlük PDF işlemlerinin farklı araçlara ve uzak servislere dağılması. |
+| **Çözüm** | Okuma, not alma, tarama, dönüştürme ve sayfa yönetimini tek mobil çalışma alanında birleştirmek. |
+| **Gizlilik yaklaşımı** | Belgeler, kullanıcı paylaşmayı veya dışa aktarmayı seçmedikçe cihazda kalır. |
+| **Erişim** | Temel deneyim hesap gerektirmez; Pro için aylık, yıllık ve ömür boyu seçenekler bulunur. |
 
-## Gizlilik Yaklasimi
+## Araç seti
 
-FacetPDF Studio yerel belge isleme mantigi uzerine kuruldu. Ice aktarilan PDF'ler, kamera taramalari, imzalar, notlar ve donusturulen dosyalar kullanici iOS paylasim/disa aktarma islemi yapmadikca cihazda kalir.
+- Hızlı gezinme, yakınlaştırma, arama ve sayfa araçları
+- Kalem, metin, vurgu, not, maske, imza ve damga
+- Kamera ile tarama ve boş PDF oluşturma
+- Görsel, düz metin, RTF ve HTML’den PDF dönüştürme
+- Birleştirme, sıralama, döndürme, silme ve sayfa çıkarma
+- Sıkıştırma, sabitleme ve korumalı dışa aktarma
 
-Hesap zorunlulugu yoktur.
+## Ürün ekranları
 
-## App Store Konumlandirmasi
+<table>
+  <tr>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/01-home-premium.png" alt="FacetPDF ana ekran"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/02-workspace-editor.png" alt="PDF editörü"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/03-page-organizer.png" alt="Sayfa düzenleyici"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/04-paywall-premium.png" alt="Pro planları"></td>
+    <td width="20%"><img src="screenshots/Real-iPhone-17-Pro-Max/05-search-export.png" alt="Arama ve dışa aktarma"></td>
+  </tr>
+</table>
 
-**Alt baslik:** PDF oku, duzenle ve imzala.
-
-**Kategori:** Productivity
-
-**Lansman fiyat stratejisi:**
-
-- Aylik Pro: USD 0.99
-- Yillik Pro: USD 4.99
-- Omur boyu kilit acma: USD 9.99
-
-## Screenshot ve Mockuplar
-
-### Real iPhone 17 Pro Max Seti
-
-![Premium ana ekran](screenshots/Real-iPhone-17-Pro-Max/01-home-premium.png)
-![PDF calisma alani](screenshots/Real-iPhone-17-Pro-Max/02-workspace-editor.png)
-![Sayfa duzenleyici](screenshots/Real-iPhone-17-Pro-Max/03-page-organizer.png)
-![Pro satin alma ekrani](screenshots/Real-iPhone-17-Pro-Max/04-paywall-premium.png)
-![Arama ve disa aktarma](screenshots/Real-iPhone-17-Pro-Max/05-search-export.png)
-
-### App Store iPhone 6.5 Inc Seti
-
-![PDF'leri hizli ac](screenshots/iPhone-6.5/01-open-pdfs-fast.png)
-![Not al, imzala, damgala](screenshots/iPhone-6.5/02-annotate-sign-stamp.png)
-![Sayfalari duzenle](screenshots/iPhone-6.5/03-organize-pages.png)
-![Guvenli ve kucuk disa aktar](screenshots/iPhone-6.5/04-secure-compact-export.png)
-![Pro lansman denemesi](screenshots/iPhone-6.5/05-pro-launch-trial.png)
-
-### iPad Seti
-
-![iPad calisma alani](screenshots/iPad-12.9/01-ipad-workspace.png)
-![iPad sayfalar](screenshots/iPad-12.9/02-ipad-pages.png)
-![iPad disa aktarma](screenshots/iPad-12.9/03-ipad-export.png)
-![iPad Pro ekran](screenshots/iPad-12.9/04-ipad-pro.png)
-
-English version: [README.md](README.md)
+English: [README.md](README.md)
